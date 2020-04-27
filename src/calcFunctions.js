@@ -1,3 +1,22 @@
-const sum = (num1, num2) => num1 + num2;
+const sum = (a, b) => a + b;
 
-module.exports = {sum};
+const product = (a, b) => a * b;
+
+const subtract = (a, b) => a - b;
+
+const remainder = (a, b) => a % b;
+
+const quotient = (a, b) => a / b;
+
+const hcf = (a, b) => {
+  const c = remainder(a, b);
+  if (c == 0) {
+    return b;
+  }
+  return hcf(b, c);
+};
+
+const lcm = (a, b) => {
+  return product(a, b) / hcf(a, b);
+};
+module.exports = {sum, product, subtract, remainder, quotient, hcf, lcm};
