@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc mocha --colors"
+    "test": "mocha --colors"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/visionofshivi/calc#readme",
   "devDependencies": {
-    "mocha": "^7.1.2",
-    "nyc": "^15.0.1"
+    "mocha": "^7.1.2"
   }
 }

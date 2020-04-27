@@ -1,11 +1,11 @@
 # calc
 
-
 ## write a calc app
+
 make sure write tests
 that should be able to calculate:
 sum
-product 
+product
 remainder
 quotient
 hcf
