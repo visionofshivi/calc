@@ -19,4 +19,13 @@ const hcf = (a, b) => {
 const lcm = (a, b) => {
   return product(a, b) / hcf(a, b);
 };
-module.exports = {sum, product, subtract, remainder, quotient, hcf, lcm};
+
+module.exports = {
+  sum,
+  product,
+  subtract,
+  remainder,
+  quotient,
+  hcf,
+  lcm,
+};
