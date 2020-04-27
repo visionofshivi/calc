@@ -1,0 +1,26 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visionofshivi/calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/visionofshivi/calc/issues"
+  },
+  "homepage": "https://github.com/visionofshivi/calc#readme",
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
+  }
+}
